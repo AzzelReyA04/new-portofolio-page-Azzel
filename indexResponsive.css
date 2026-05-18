@@ -137,7 +137,67 @@
     object-fit: cover;
     display: block;
   }
-  /* dot */
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .nav-logo {
+    font-size: 1.5rem;
+  }
+
+  .nav-links {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-links li {
+    width: auto;
+  }
+
+  .nav-links a {
+    display: inline-block;
+    font-size: 0.85rem;
+    padding: 0.3rem 0.5rem;
+  }
+
+  .techstack {
+    padding: 60px 5%;
+  }
+
+  .techstack h1 {
+    font-size: 2rem;
+  }
+
+  .stack-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stack-category {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .stack-category h2 {
+    font-size: 1.4rem;
+  }
+
+  .stack-category p {
+    font-size: 1rem;
+  }
+
   .titik {
     position: absolute;
     bottom: 0.5%;
@@ -227,7 +287,6 @@
       opacity: 1;
     }
   }
-
   @keyframes fade {
     from {
       opacity: 0.4;
