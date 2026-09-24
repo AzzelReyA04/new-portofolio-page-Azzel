@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://new-portofolio-page-azzel.pages.dev/sitemap.xml

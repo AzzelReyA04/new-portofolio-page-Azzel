@@ -1,0 +1,4 @@
+# Cloudflare Pages redirects
+# https://developers.cloudflare.com/pages/configuration/redirects/
+# The CV used to live at the site root under a filename with spaces.
+/Azzel%20Reyhanth%20Aristo_CV.pdf  /assets/Azzel-Reyhanth-Aristo-CV.pdf  301
